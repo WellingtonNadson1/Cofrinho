@@ -3,7 +3,6 @@ public abstract class Moeda {
 
   Moeda(double value){
     this.valor = value;
-
   }
 
   public void info(){

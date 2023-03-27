@@ -1,5 +1,3 @@
-
-// import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
@@ -8,7 +6,6 @@ public class App {
 
         while (true) {
             System.out.println("\n/== Cofre de Moedas ==/ \n  Selecione uma opção: \n");
-
             System.out.println("0 - Listar Moedas Guardadas");
             System.out.println("1 - Adiconar Moedas");
             System.out.println("2 - Remover Moedas");
@@ -21,7 +18,6 @@ public class App {
             switch (itemMenuSelecionado) {
                 case 0:
                     bank.listagemMoedas();
-                    
                     continue;
                 case 1:
                     System.out.println("\nQual moeda você deseja adicionar?");
@@ -62,8 +58,8 @@ public class App {
                             System.out.println(" ==> ERRO! <== \nValor indefinido, selecione uma das opções do menu!");
                             continue;
                     }
-                
-                    // Removendo moedas do Cofre
+
+                // Removendo moedas do Cofre
                 case 2:
                     System.out.println("\nQual moeda você deseja remover?");
                     bank.listagemMoedas();

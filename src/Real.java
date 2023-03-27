@@ -1,5 +1,5 @@
 public class Real extends Moeda {
-  Real(double valor){
+  Real(double valor) {
     super(valor);
   }
 }

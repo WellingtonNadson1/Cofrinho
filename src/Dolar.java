@@ -1,11 +1,11 @@
-public class Dolar extends Moeda{
+public class Dolar extends Moeda {
   double taxaConver = 5.28;
 
-  Dolar(double valor){
+  Dolar(double valor) {
     super(valor);
   }
 
-  public double converter(){
+  public double converter() {
     return valor * taxaConver;
   }
 }

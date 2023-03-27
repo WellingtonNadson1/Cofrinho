@@ -1,15 +1,15 @@
 public abstract class Moeda {
   double valor;
 
-  Moeda(double value){
+  Moeda(double value) {
     this.valor = value;
   }
 
-  public void info(){
+  public void info() {
     System.out.println(valor);
   }
 
-  public double converter(){
+  public double converter() {
     return valor;
   }
 }
